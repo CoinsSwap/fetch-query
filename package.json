@@ -1,0 +1,25 @@
+{
+  "name": "@coinsswap/fetch-query",
+  "version": "0.1.0",
+  "description": "fetch a query",
+  "main": "index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "c": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoinsSwap/fetch-query.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoinsSwap/fetch-query/issues"
+  },
+  "homepage": "https://github.com/CoinsSwap/fetch-query#readme",
+  "devDependencies": {
+    "rollup": "^2.38.5"
+  }
+}
