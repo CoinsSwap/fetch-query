@@ -23,7 +23,7 @@ export default async (url, options) => {
   }
   query += ') {'
   query += options.query
-  query += '}}}'
+  query += '}}'
 
   let response = await fetch(url, {
     method: 'post',

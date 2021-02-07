@@ -33,6 +33,7 @@ fetch(url, {
       }
       token0Price
       token1Price
+    }
     `
 }).then(response => response.json()).then(response => console.log(response))
 ```
