@@ -33,7 +33,9 @@ var index = async (url, options) => {
       query: `${query}`
      })
   });
-  return response.json()
+  response = await response.json();
+  if (response.data && response.data[options.entity]) return response.data[options.entity]
+  return response
 };
 
 module.exports = index;
